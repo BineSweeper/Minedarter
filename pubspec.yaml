@@ -1,0 +1,14 @@
+name: minedarter
+description: Minesweeper clone
+version: 1.0.0
+repository: https://github.com/BineSweeper/Minedarter
+
+environment:
+  sdk: '>=2.19.0-edge.6cc1c3c23c7b8ee0ca8291fc9d090cae9166d6f2 <3.0.0'
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
