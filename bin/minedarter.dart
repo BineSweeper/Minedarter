@@ -65,6 +65,7 @@ void main(List<String> arguments) {
       var y = int.parse(parts[0]);
       var x = int.parse(parts[1]);
       game.reveal(x, y);
+      game.checkWin();
 
       if (game.isWon || game.isLost) {
         print("\u{001B}[2J");
